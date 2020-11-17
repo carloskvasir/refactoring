@@ -5,7 +5,8 @@
   "main": "index.js",
   "author": "Carlos Lima Kvasir",
   "scripts": {
-    "test": "jest"
+    "test": "jest --bail",
+    "coverage": "jest --coverage"
   },
   "jest": {
     "testPathIgnorePatterns": [
