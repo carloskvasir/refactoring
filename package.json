@@ -1,17 +1,21 @@
 {
-  "name": "refatoracao",
+  "name": "refactoring",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exemplos do livro segunda edição",
   "main": "index.js",
+  "author": "Carlos Lima Kvasir",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
   "dependencies": {},
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "Carlos Lima",
-  "license": "ISC"
+  }
 }
